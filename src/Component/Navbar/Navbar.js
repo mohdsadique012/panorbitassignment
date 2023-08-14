@@ -43,7 +43,7 @@ function Navbar({ profile_page }) {
     <>
       <div className="navbar">
         <div className="left-section">
-          <p className="profile-page">{profile_page}</p>
+          <p className="profile-page-name">{profile_page}</p>
         </div>
         <div className="right-section">
           <img

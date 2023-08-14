@@ -5,7 +5,7 @@ import SideBar from "../SideBar/SideBar";
 import ProfileDetail from "../ProfileDetail/ProfileDetail";
 import { AppContext } from "../../Context/ProfileContext";
 import "./ProfilePage.css";
-import MessageBox from "../MessageBox/MessageBox";
+import MessageBox from "../MessageBox.js/MessageBox";
 
 function ProfilePage() {
   const { id } = useParams();
