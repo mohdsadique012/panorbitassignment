@@ -95,7 +95,9 @@
    
   }
   .font{
-    font-weight: bold;
+   font-size: 1.1rem;
+    color: gray;
+    margin-left: 1rem;
   }
   .margin{
     margin-top: 10px;

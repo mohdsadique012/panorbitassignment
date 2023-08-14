@@ -31,3 +31,7 @@
 
 border-radius: 50%;
   }
+  .bold-text {
+    font-weight: bold;
+    color: white;
+  }
