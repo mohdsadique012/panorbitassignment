@@ -1,0 +1,33 @@
+.sidebar {
+    width: 18%;
+
+    background: linear-gradient(to bottom, #494dc8, #22168e ,#130e3e);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    padding: 10px;
+    height: 90%;
+  }
+  .sidebar p {
+    margin-left:0;
+    cursor: pointer;
+  }
+  .sidebar-p{
+    font-weight: 200;
+    color: aliceblue;
+    border-bottom: 1px solid wheat;
+    width: 8rem;
+    padding-top: 10px;
+  }
+  .sidebar span {
+    margin-left: 10rem;
+
+
+
+border-radius: 50%;
+  }

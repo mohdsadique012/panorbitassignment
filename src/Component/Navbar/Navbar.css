@@ -1,0 +1,128 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+    color: black;
+    width: 75%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border-bottom: 1px solid grey;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+  }
+  
+  .profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .dropdown-profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-dropdown {
+    position: relative;
+  }
+  
+  .profile-dropdown p {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    right: 0;
+    top: 100%;
+  }
+  .profile-content-dropdown{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    align-items: center;
+    margin-left: 2rem;
+    
+  }
+  .profile-dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 2000;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+
+  .email-dropdown{
+    margin: 0px;
+    padding: 0;
+    color: grey;
+
+  }
+  .name-dropdown{
+    margin: -1px;
+    color: black;
+
+  }
+  .two-random-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: -.9rem;
+   width: 12rem;
+   height: 2.2rem;
+    align-content: center;
+    border-top: 1px solid grey;
+
+  }
+  .profile-page-name{
+    
+    font-weight: bold;
+  }
+  .button{
+    width: 5rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+    margin-left: 3.7rem;
+    
+    
+  }
+  .button-div{
+    margin-top: -1rem;
+    padding-top: -1rem;
+  }
+  .random-profiler{
+    width:9rem;
+    margin-left: -1.2rem;
+    font-size: .8rem;
+    
+    /* border-radius: 50%; */
+
+  }

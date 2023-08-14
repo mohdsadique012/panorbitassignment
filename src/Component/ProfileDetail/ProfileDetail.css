@@ -1,0 +1,162 @@
+.outer-container-profile {
+    margin-top: 3.6rem;
+    margin-left: 20rem;
+    
+    height: 80vh; /* Set outer container height to cover the viewport height */
+  }
+  
+  .container-detail-profile {
+   height: 110%;
+    width: 100%; /* 80% of viewport height */
+    /* 80% of viewport height */
+    bottom: 0; /* Align to the bottom of the outer container */
+    right: 0; /* Align to the right of the outer container */
+    display: flex;
+
+  }
+  
+  .left-profile {
+    width: 39%;
+ 
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid grey;
+  }
+  .left-upper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: -10px;
+
+  }
+  .boder-width{
+    border-bottom: 1px solid grey;
+    width: 20rem;
+  }
+  .boder-widthh{
+    border-bottom: 1px solid grey;
+    width: 21rem;
+    margin-left: 1rem;
+  }
+  .left-lower{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -15px;
+ 
+  }
+  
+  .right-profile {
+    width: 60%;
+    background-color: #FF4136;
+  }
+  .profile-detail-image{
+    margin-top: 1rem;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+
+.details-profile-container {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .detail {
+    margin: -2px;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .detail-label {
+    width: 100px; /* Adjust the width as needed */
+   
+  }
+  
+  .dott {
+    margin-left: -5px; /* Adjust the space between label and dot */
+    margin-right:10px ;
+    
+  }
+  
+  .detail-value {
+    margin: 0;
+  }
+
+  .fontweight{
+    color: grey;
+
+   
+  }
+  .font{
+    font-weight: bold;
+  }
+  .margin{
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .detail strong {
+    font-weight: bold; /* Apply bold font to the email */
+  }
+  .shift{
+    margin-left: 2rem;
+  }
+
+
+  /* Add the following media query to make the profile page responsive */
+@media (max-width: 768px) {
+  .outer-container-profile {
+    margin-top: 8rem; /* Adjust margin-top for mobile devices */
+    margin-left: 1rem; /* Adjust margin-left for mobile devices */
+  }
+
+  .container-detail-profile {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center; /* Center the content on smaller screens */
+    height: auto; /* Reset the height for mobile devices */
+  }
+
+  .left-profile,
+  .right-profile {
+    width: 100%; /* Use full width for both sections on mobile devices */
+    border: none; /* Remove borders on mobile devices */
+  }
+
+  .left-upper,
+  .left-lower {
+    width: 100%; /* Use full width for both sections on mobile devices */
+  }
+
+  .detail-label {
+    width: auto; /* Adjust the width to accommodate longer labels */
+  }
+
+  .boder-width,
+  .boder-widthh {
+    display: none; /* Hide the border lines on smaller screens */
+  }
+
+  .detail {
+    justify-content: space-between; /* Space out details on mobile devices */
+  }
+}
+
+/* Rest of your CSS */
+/* Add the following media query to make the profile page responsive */
+@media (max-width: 1080px) {
+ 
+
+  /* Additional styles for max-width: 1080px */
+  .outer-container-profile {
+    margin-top: 4rem; /* Adjust margin-top for tablets */
+    margin-left: 5rem; /* Adjust margin-left for tablets */
+  }
+
+  /* Adjust other styles as needed for tablets */
+}
